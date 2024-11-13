@@ -330,7 +330,7 @@ nav ul {
 .strengths {
   background-color: #f4f4f4;
   padding: 60px 70px 0px 70px;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
   text-align: center;
   font-weight: bold;
 }
@@ -382,6 +382,7 @@ nav ul {
 /* Experience Section */
 .experience {
   padding: 70px 20px;
+  margin-top: auto;
 }
 
 .Experience-title {
