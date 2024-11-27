@@ -1,0 +1,49 @@
+16:40:18 **** Incremental Build of configuration Debug for project LSM6DSL_V0.4 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:275:29: warning: unused variable 'accel_z' [-Wunused-variable]
+  275 |   int16_t accel_x, accel_y, accel_z;
+      |                             ^~~~~~~
+../Core/Src/main.c:275:20: warning: unused variable 'accel_y' [-Wunused-variable]
+  275 |   int16_t accel_x, accel_y, accel_z;
+      |                    ^~~~~~~
+../Core/Src/main.c:275:11: warning: unused variable 'accel_x' [-Wunused-variable]
+  275 |   int16_t accel_x, accel_y, accel_z;
+      |           ^~~~~~~
+../Core/Src/main.c:295:14: warning: 'gyro_x' is used uninitialized [-Wuninitialized]
+  295 |              DataOver_UART(accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:274:11: note: 'gyro_x' was declared here
+  274 |   int16_t gyro_x, gyro_y, gyro_z;
+      |           ^~~~~~
+../Core/Src/main.c:295:14: warning: 'gyro_y' is used uninitialized [-Wuninitialized]
+  295 |              DataOver_UART(accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:274:19: note: 'gyro_y' was declared here
+  274 |   int16_t gyro_x, gyro_y, gyro_z;
+      |                   ^~~~~~
+../Core/Src/main.c:295:14: warning: 'gyro_z' is used uninitialized [-Wuninitialized]
+  295 |              DataOver_UART(accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:274:27: note: 'gyro_z' was declared here
+  274 |   int16_t gyro_x, gyro_y, gyro_z;
+      |                           ^~~~~~
+arm-none-eabi-gcc -o "LSM6DSL_V0.4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\rai\Project\STM32cubeIDE\V0.4\LSM6DSL_V0.4\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LSM6DSL_V0.4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LSM6DSL_V0.4.elf
+ 
+arm-none-eabi-size  LSM6DSL_V0.4.elf 
+arm-none-eabi-objdump -h -S LSM6DSL_V0.4.elf  > "LSM6DSL_V0.4.list"
+   text	   data	    bss	    dec	    hex	filename
+  25764	     92	   2132	  27988	   6d54	LSM6DSL_V0.4.elf
+Finished building: default.size.stdout
+ 
+Finished building: LSM6DSL_V0.4.list
+ 
+16:41:42 **** Incremental Build of configuration Debug for project LSM6DSL_V0.4 ****
+make -j8 all 
+arm-none-eabi-size  LSM6DSL_V0.4.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25764	     92	   2132	  27988	   6d54	LSM6DSL_V0.4.elf
+Finished building: default.size.stdout
+ 

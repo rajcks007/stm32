@@ -1,0 +1,14 @@
+14:31:04 **** Incremental Build of configuration Debug for project LSM6DSL ****
+make -j8 all 
+arm-none-eabi-gcc -o "LSM6DSL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\rai\Project\STM32cubeIDE\V0.1\LSM6DSL_V0.1\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LSM6DSL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32f3xx_nucleo_bus.o:C:/Users/rai/Project/STM32cubeIDE/V0.1/LSM6DSL_V0.1/Debug/../Core/Src/stm32f3xx_nucleo_bus.c:41: multiple definition of `hi2c1'; ./Core/Src/main.o:C:/Users/rai/Project/STM32cubeIDE/V0.1/LSM6DSL_V0.1/Debug/../Core/Src/main.c:55: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Drivers/BSP/Components/lsm6dsl/lsm6dsl.o: in function `LSM6DSL_Init':
+C:/Users/rai/Project/STM32cubeIDE/V0.1/LSM6DSL_V0.1/Debug/../Drivers/BSP/Components/lsm6dsl/lsm6dsl.c:159: multiple definition of `LSM6DSL_Init'; ./Core/Src/main.o:C:/Users/rai/Project/STM32cubeIDE/V0.1/LSM6DSL_V0.1/Debug/../Core/Src/main.c:347: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Drivers/BSP/Components/lsm6dsl/lsm6dsl.o: in function `LSM6DSL_ReadID':
+C:/Users/rai/Project/STM32cubeIDE/V0.1/LSM6DSL_V0.1/Debug/../Drivers/BSP/Components/lsm6dsl/lsm6dsl.c:248: multiple definition of `LSM6DSL_ReadID'; ./Core/Src/main.o:C:/Users/rai/Project/STM32cubeIDE/V0.1/LSM6DSL_V0.1/Debug/../Core/Src/main.c:367: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:65: LSM6DSL.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+14:31:04 Build Failed. 4 errors, 0 warnings. (took 401ms)
+

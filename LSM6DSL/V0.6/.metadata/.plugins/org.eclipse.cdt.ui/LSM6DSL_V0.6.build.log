@@ -1,0 +1,10 @@
+15:25:36 **** Incremental Build of configuration Debug for project LSM6DSL_V0.6 ****
+make -j12 all 
+arm-none-eabi-size  LSM6DSL_V0.6.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19764	     92	   2140	  21996	   55ec	LSM6DSL_V0.6.elf
+Finished building: default.size.stdout
+ 
+
+15:25:36 Build Finished. 0 errors, 0 warnings. (took 201ms)
+
