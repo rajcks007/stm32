@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;filter/filter.ioc&apos; to &apos;fft.ioc&apos;" description="Rename resource &apos;filter.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="filter.ioc" name="fft.ioc" stamp="1737376861010" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;filter/filter.ioc&apos; to &apos;fft.ioc&apos;" description="Rename resource &apos;filter.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="filter.ioc" name="fft.ioc" stamp="1737376874426" updateReferences="true"/>
+</session>

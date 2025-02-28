@@ -1,0 +1,4 @@
+C:/Users/raj/Project/Project/Tenserflow_lite/tflite-micro/tensorflow/lite/experimental/microfrontend/lib/bits.h:32:19:CountLeadingZeros32	2
+C:/Users/raj/Project/Project/Tenserflow_lite/tflite-micro/tensorflow/lite/experimental/microfrontend/lib/bits.h:51:19:MostSignificantBit32	1
+../Core/tflite-micro/tensorflow/lite/experimental/microfrontend/lib/frontend.c:19:23:FrontendProcessSamples	3
+../Core/tflite-micro/tensorflow/lite/experimental/microfrontend/lib/frontend.c:67:6:FrontendReset	1

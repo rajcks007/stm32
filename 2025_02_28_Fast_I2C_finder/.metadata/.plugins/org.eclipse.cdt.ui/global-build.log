@@ -1,0 +1,203 @@
+13:45:08 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  16984	    152	   2168	  19304	   4b68	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+13:45:11 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16984	    152	   2168	  19304	   4b68	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+13:46:27 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  16984	    156	   2164	  19304	   4b68	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+13:47:04 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  16984	    156	   2172	  19312	   4b70	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+13:48:06 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17068	    160	   2176	  19404	   4bcc	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+13:49:36 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17068	    160	   2176	  19404	   4bcc	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+13:50:07 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17068	    160	   2176	  19404	   4bcc	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+13:51:35 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17068	    160	   2176	  19404	   4bcc	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+13:53:24 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17072	    184	   2176	  19432	   4be8	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+14:00:55 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17116	    248	   2176	  19540	   4c54	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+14:02:15 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17116	    256	   2176	  19548	   4c5c	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+14:02:57 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17116	    256	   2176	  19548	   4c5c	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+14:03:12 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17116	    256	   2176	  19548	   4c5c	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+14:03:57 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17116	    256	   2176	  19548	   4c5c	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+14:05:43 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17148	    260	   2172	  19580	   4c7c	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 
+14:08:13 **** Incremental Build of configuration Debug for project 2025_02_25_I2C_finder ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2025_02_25_I2C_finder.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\raj\Project\Project\STM32cubeIDE\2025_02_28_Fast_I2C_finder\2025_02_25_I2C_finder\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2025_02_25_I2C_finder.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2025_02_25_I2C_finder.elf
+ 
+arm-none-eabi-size  2025_02_25_I2C_finder.elf 
+arm-none-eabi-objdump -h -S 2025_02_25_I2C_finder.elf  > "2025_02_25_I2C_finder.list"
+   text	   data	    bss	    dec	    hex	filename
+  17144	    260	   2172	  19576	   4c78	2025_02_25_I2C_finder.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2025_02_25_I2C_finder.list
+ 

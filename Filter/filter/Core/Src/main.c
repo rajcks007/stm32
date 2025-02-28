@@ -24,7 +24,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "arm_math.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -166,16 +166,15 @@ int main(void)
 	  float high_pass_output = high_pass_filter(x0) + 550;
 
 	  // Apply low-pass filter to the input
-	  float low_pass_output = low_pass_filter(high_pass_output);
+//	  float low_pass_output = low_pass_filter(high_pass_output);
 //
 //	  float band_stop = (low_pass_output - high_pass_output);
-
 
 
 	  // Write ADC value to DAC
 	  HAL_DAC_SetValue(&hdac1, DAC_CHANNEL_1, DAC_ALIGN_12B_R, high_pass_output);
 
-	  // Send ADC value over UART
+//	  // Send ADC value over UART
 //	  snprintf(msg, sizeof(msg), " %0.1f \r\n", x0);
 //	  HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
 
